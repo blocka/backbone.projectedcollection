@@ -4,7 +4,7 @@
 		define(['backbone'], factory);
 	} else {
 		// Browser globals
-		root.amdWeb = factory(root.Backbone);
+		root.ProjectedCollection = factory(root.Backbone);
 	}
 }(this, function (Backbone) {
 	var ProjectedCollection = function(collection,options) {
