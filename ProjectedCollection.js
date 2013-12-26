@@ -16,7 +16,7 @@
 
 		var _refresh = function() {
 			var result = options.projection.call(sourceCollection);
-			targetCollection.set(result);
+			targetCollection.reset(result);
 		};
 
 		_refresh();
